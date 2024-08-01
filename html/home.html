@@ -9,9 +9,8 @@
     <title>ebook</title>
 </head>
 
-<body style="background-color: black;">
-
-  <nav class="navbar" style="background-color: #fd4781;">
+<body class="container-fluid" style="background-color: black;">
+  <nav class="container-fluid sticky-top navbar" style="background-color: #fd4781;">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
         <img src="../images/booklogo.png"  class="rounded-circle" alt="Ebook World" width="45" height="38">
@@ -20,13 +19,13 @@
     
     <ul class="nav justify-content-end">
       <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="../html/home.html">home</a>
+        <a class="nav-link active" aria-current="page" href="../html/home.html">Home</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-dark" href="#">Link</a>
+        <a class="nav-link text-dark" href="#">Create a Account</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link text-dark" href="#">Link</a>
+        <a class="nav-link text-dark" href="../html/login.html">Log In</a>
       </li>
       <li class="nav-item">
         <a class="nav-link " aria-disabled="true">Disabled</a>
@@ -34,12 +33,12 @@
     </ul>
     </div>
   </nav>
+</div> 
 
-
-  <section>
-    <div class="row d-flex justify-content-start"> 
+ <!--- <section>
+    <div class="row d-flex"> 
       <div class="col-3   ms-5 mt-5">
-        <img  src="../images/1.jpg" style="width: 300px;">
+        <img  src="../images/m1.png">
       </div>
       <div class="col-1  mt-5">
         <img src="../images/m2.png">
@@ -58,89 +57,310 @@
       </div>
 
     </div>
-  </section>
+  </section>-->
   
  
 
-  <section >
-    <div class="search d-flex my-auto pb-5 pt-5">
-      <form class="d-flex w-50 " style="margin-left:250px;" role="search">
-        <input class="form-control ms-5 my-auto me-2 h-75" type="search" placeholder="Search" aria-label="Search">
-        <a href="#" class="btn btn-danger my-auto">Search</a>
-      </form>
-      <ul class="nav nav-pills my-auto  ms-5" id="pills-tab" role="tablist">
-        <li class="nav-item" role="presentation">
-          <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Latest Collection</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Audio</button>
-        </li>
-        <li class="nav-item" role="presentation">
-          <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Video</button>
-        </li>
-        
-      </ul>
-      <div class="tab-content" id="pills-tabContent">
-        <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">...</div>
-        <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">...</div>
-        <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">...</div>
-        <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">...</div>
+  <section>
+  <div class="container-fluid contain">
+    <div class="row">
+      <div class="col-3">
+        <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark position-fixed" style="width: max-content; height:100vh; background-color: black;">
+          <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+            <svg class="bi pe-none me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+            <span class="fs-4">Fiction</span>
+          </a>
+          <hr>
+          <ul class="nav nav-pills flex-column mb-auto">
+            <li class="nav-item">
+              <a href="#" class="nav-link active bg-danger" aria-current="page">
+                <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
+                Home
+              </a>
+            </li>
+            <li>
+              <a href="../html/rom.html" class="nav-link text-white">
+                <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
+                Romance
+              </a>
+            </li>
+            <li>
+              <a href="../html/crime.html" class="nav-link text-white">
+                <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
+                Crime
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link text-white">
+                <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
+                Thrillers
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link text-white">
+                <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
+                Fantasy
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link text-white">
+                <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
+                Comics
+              </a>
+            </li>
+            <hr>
+            <li>
+              <span class="fs-4 ms-5 text-white"> Non-Fiction</span><hr>
+            </li>
+            <li>
+              <a href="#" class="nav-link text-white">
+                <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
+                Education
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link text-white">
+                <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
+                Pschology
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link text-white">
+                <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
+                Poetry
+              </a> 
+            </li>
+            <li>
+                <a href="#" class="nav-link text-white">
+                  <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
+                  Law
+                </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link text-white">
+                <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
+                Biography
+              </a>
+          </li>
+          </ul>
+          <hr>
+          <div class="dropdown">
+            <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+              <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
+              <strong>mdo</strong>
+            </a>
+            <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
+              
+              <li><a class="dropdown-item" href="#">Settings</a></li>
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><hr class="dropdown-divider"></li>
+              <li><a class="dropdown-item" href="#">Sign out</a></li>
+            </ul>
+          </div>
+        </div>
       </div>
-    </div>
-  </section>
-  <div class="d-flex flex-column flex-shrink-0 p-3 text-bg-dark" style="width: 280px; height:1200px;">
-    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
-      <svg class="bi pe-none me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
-      <span class="fs-4">Sidebar</span>
-    </a>
-    <hr>
-    <ul class="nav nav-pills flex-column mb-auto">
-      <li class="nav-item">
-        <a href="#" class="nav-link active" aria-current="page">
-          <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#home"></use></svg>
-          Home
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link text-white">
-          <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#speedometer2"></use></svg>
-          Dashboard
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link text-white">
-          <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#table"></use></svg>
-          Orders
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link text-white">
-          <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#grid"></use></svg>
-          Products
-        </a>
-      </li>
-      <li>
-        <a href="#" class="nav-link text-white">
-          <svg class="bi pe-none me-2" width="16" height="16"><use xlink:href="#people-circle"></use></svg>
-          Customers
-        </a>
-      </li>
-    </ul>
-    <hr>
-    <div class="dropdown">
-      <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
-        <img src="https://github.com/mdo.png" alt="" width="32" height="32" class="rounded-circle me-2">
-        <strong>mdo</strong>
-      </a>
-      <ul class="dropdown-menu dropdown-menu-dark text-small shadow">
-        <li><a class="dropdown-item" href="#">New project...</a></li>
-        <li><a class="dropdown-item" href="#">Settings</a></li>
-        <li><a class="dropdown-item" href="#">Profile</a></li>
-        <li><hr class="dropdown-divider"></li>
-        <li><a class="dropdown-item" href="#">Sign out</a></li>
-      </ul>
+
+      <div class="col-8 overflow-x-hidden">
+        <form class="d-flex col w-75 ms-5 mt-5 mb-5" role="search">
+          <input class="form-control ms-5 my-auto me-2 h-75" type="search" placeholder="Search" aria-label="Search">
+      <a href="#" class="btn btn-danger my-auto">Search</a>
+        </form>
+      
+        <div class="row">
+          <div class="col ">
+            <img class="img-fluid position-relative" style="width:1000px; height:500px;" src="../images/firstban.png">
+            <a class="text-decoration-none" href="buyget.html">
+              <div class="col position-absolute top-50 translate-middle" style="top:40%; translate:621% 244%;">
+                <h4 class="text-danger">Click Here <i class="fa-solid fa-arrow-down"></i> </h2>
+                  <h4>Buy 1 Get 1 <br>Free</h4>
+              </div>
+      
+            </a>
+          </div>
+        </div>
+      
+        <div class="container-fluid mt-5 back">
+          <div class="row d-flex" style="width:100%;">
+            <div class="col-1 ms-5 pic">
+              <img class="mx-auto mt-5" src="../images/m1.png">
+          </div>
+            <div class="col-1 ms-5 pic">
+              <img class="mx-auto mt-5"  src="../images/m2.png">
+            </div>
+            <div  class="col-1 ms-5 pic">
+              <img class="mx-auto mt-5" src="../images/m3.png">
+          </div>
+            <div class="col-1 ms-5 pic">
+              <img  class="mx-auto mt-5" src="../images/m4.png">
+            </div> 
+            <div class="col-1 ms-5 pic">
+              <img class="mx-auto mt-5" src="../images/m5.png">
+            </div>
+            <div class="col-1 ms-5 pic">
+              <img class="mx-auto mt-5" src="../images/m6.png">
+            </div>
+            <div class="col-1 ms-5 pic">
+              <img class="mx-auto mt-5" src="../images/m7.jpeg">
+            </div>
+          <!--- <div class="col-1 ms-5 pic">
+              <img class="mx-auto mt-5" src="../images/m8.jpeg">
+            </div>-->
+          </div>   
+        </div>
+      </div>
+
     </div>
   </div>
+
+  <div class="container-fluid d-md-flex">
+    <div class="row ms-md-5 ms-sm-3">
+      <div class="col-md-3">
+        <a href="rom.html">
+          <img style="margin-left:250px; margin-top:30px; margin-right:20px;" src="../images/d1.png">
+        </a>
+      </div>
+
+      <div class="col-md-3">
+        <a href="fantasy.html">
+          <img style="margin-left:250px; margin-top:30px; margin-right:20px;" src="../images/d2.png">
+        </a>
+      </div>
+
+      <div class="col-md-3">
+        <a href="fantasy.html">
+          <img style="margin-left:250px; margin-top:30px; margin-right:20px;" src="../images/d3.png">
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <div class="container-fluid d-flex">
+    <div class="row ms-5">
+      <div class="col-3">
+        <a href="rom.html">
+          <img style="margin-left:250px; margin-top:30px; margin-right:20px;" src="../images/d4.png">
+        </a>
+      </div>
+
+      <div class="col-3">
+        <a href="rom.html">
+          <img style="margin-left:250px; margin-top:30px; margin-right:20px;" src="../images/d5.png">
+        </a>
+      </div>
+
+      <div class="col-3">
+        <a href="rom.html">
+          <img style="margin-left:250px; margin-top:30px; margin-right:20px;" src="../images/d6.png">
+        </a>
+      </div>
+    </div>
+  </div><div class="container-fluid d-flex">
+    <div class="row ms-5">
+      <div class="col-3">
+        <a href="rom.html">
+          <img style="margin-left:250px; margin-top:30px; margin-right:20px;" src="../images/d7.png">
+        </a>
+      </div>
+
+      <div class="col-3">
+        <a href="rom.html">
+          <img style="margin-left:250px; margin-top:30px; margin-right:20px;" src="../images/d8.png">
+        </a>
+      </div>
+
+      <div class="col-3">
+        <a href="rom.html">
+          <img style="margin-left:250px; margin-top:30px; margin-right:20px;" src="../images/d9.png">
+        </a>
+      </div>
+    </div>
+  </div>
+
+
+
+
+  <section>
+    <div id="carouselExampleCaptions" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" style="margin-left: 128px;">
+          <img style="width:1200px; height:200px; "src="../images/banner1.jpg" class="d-block  mt-5 mx-auto" alt="...">
+          <div class="carousel-caption d-none d-md-block "> 
+          </div>
+        </div>
+        <div class="carousel-item" style="margin-left: 128px;">
+          <img style="width:1200px; height:200px;"src="../images/banner2.jpg" class="d-block mt-5 mx-auto" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item" style="margin-left: 128px;">
+          <img style="width:1000px; height:200px;"src="../images/banner3.png" class="d-block mt-5 mx-auto" alt="...">
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon"  aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next pe-5" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  
+    </section>
+
+    <footer class="py-3 my-4 ms-5">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-danger">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-danger">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-danger">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-danger">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-danger">About</a></li>
+      </ul>
+      <p class="text-center text-body-secondary">© 2024 Company, Inc</p>
+    </footer>
+
+
+      <!-- <div class="search col my-auto pb-5 pt-5"> 
+        <form class="d-flex col w-75 ms-5" role="search">
+          <input class="form-control ms-5 my-auto me-2 h-75" type="search" ptcylaceholder="Search" aria-label="Search">
+          <a href="#" class="btn btn-danger my-auto">Search</a>
+        </form>
+        <div class="row">
+          <div class="col ms-5">
+            <img src="../images/banner1.jpg">
+          </div>
+        </div> -->
+
+          <!-----
+            <ul class="nav nav-pills my-auto  ms-5" id="pills-tab" role="tablist">
+              <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Latest Collection</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Audio</button>
+              </li>
+              <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Video</button>
+              </li>
+              
+            </ul>
+            <div class="tab-content" id="pills-tabContent">
+              <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">...</div>
+              <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">...</div>
+              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">...</div>
+              <div class="tab-pane fade" id="pills-disabled" role="tabpanel" aria-labelledby="pills-disabled-tab" tabindex="0">...</div>
+            </div>
+          </div>
+
+        </div>
+          
   <!--<section>
     <div class="whole d-flex" style="margin-left:110px;">
       <div class="left">
@@ -288,7 +508,7 @@
 </div> 
 </div>
 
-</section>-->
+</section>
 
 <section>
   <div id="carouselExampleCaptions" class="carousel slide">
@@ -330,7 +550,9 @@
     </button>
   </div>
 
-  </section>
+  </section>-->
+
+
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script> 
 </body>
