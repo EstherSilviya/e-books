@@ -3,32 +3,33 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
+    <title>Create Account</title>
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
 </head>
-<body class="container-fluid" style="background-color: black;" ><nav class="container-fluid navbar position-static " style="background-color: #fd4781;">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">
-      <img src="../images/booklogo.png"  class="rounded-circle" alt="Ebook World" width="45" height="38">
-      <span class="navbar-brand mb-0 h1">Ebook World</span>
-    </a>
-  
-  <ul class="nav justify-content-end">
-    <li class="nav-item">
-      <a class="nav-link active" aria-current="page" href="../html/home.html">Home</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link text-dark" href="#">Create a Account</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link text-dark" href="login.html">Log In</a>
-    </li>
-    <li class="nav-item">
-      <a class="nav-link " aria-disabled="true">Disabled</a>
-    </li>
-  </ul>
-  </div>
-</nav>
+<body class="container-fluid" style="background-color: black;">
+    <nav class="container-fluid navbar position-static " style="background-color: #fd4781;">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="../images/booklogo.png"  class="rounded-circle" alt="Ebook World" width="45" height="38">
+        <span class="navbar-brand mb-0 h1">Ebook World</span>
+      </a>
+    
+    <ul class="nav justify-content-end">
+      <li class="nav-item">
+        <a class="nav-link active" aria-current="page" href="../html/home.html">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="#">Create a Account</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-dark" href="login.html">Log In</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link " aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+    </div>
+  </nav>
 </div> 
 
     <div class="container">
@@ -40,23 +41,32 @@
                 background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(247,83,136,1) 0%, rgba(252,176,69,1) 100%);
                 filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#833ab4",endColorstr="#fcb045",GradientType=1);">
                     <div class="card-body">
-                        <h2 class="card-title text-center">Login</h2>
-                        <form id="login-form">
+                        <h2 class="card-title text-center">Create an Account</h2>
+                        <form id="create-account-form">
                             <div class="form-group">
                                 <label for="username">Username</label>
                                 <input type="text" class="form-control" id="username" name="username" required>
                             </div>
                             <div class="form-group">
+                                <label for="email">Email</label>
+                                <input type="email" class="form-control" id="email" name="email" required>
+                            </div>
+                            <div class="form-group">
                                 <label for="password">Password</label>
                                 <input type="password" class="form-control" id="password" name="password" required>
                             </div>
-                            <button type="submit" class="btn btn-dark btn-block">Login</button>
+                            <div class="form-group">
+                                <label for="confirm-password">Confirm Password</label>
+                                <input type="password" class="form-control" id="confirm-password" name="confirm-password" required>
+                            </div>
+                            <button type="submit" class="btn btn-dark btn-block">Create Account</button>
                         </form>
                     </div>
                 </div>
             </div>
         </div>
     </div>
+    
     <footer class="py-3 my-4">
       <ul class="nav justify-content-center border-bottom pb-3 mb-3">
           <li class="nav-item"><a href="#" class="nav-link px-2 text-danger">Home</a></li>
@@ -71,5 +81,6 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    
 </body>
 </html>

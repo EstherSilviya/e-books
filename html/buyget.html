@@ -4,102 +4,127 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css ">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
     <link rel="stylesheet" href="../css/home.css">
     <title>ebook</title>
 </head>
 
 <body class="container-fluid" style="background-color: black;">
-  <nav class="container-fluid navbar position-static " style="background-color: #fd4781;">
+  <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #fd4781;">
     <div class="container-fluid">
       <a class="navbar-brand" href="#">
-        <img src="../images/booklogo.png"  class="rounded-circle" alt="Ebook World" width="45" height="38">
+        <img src="../images/booklogo.png" class="rounded-circle" alt="Ebook World" width="45" height="38">
         <span class="navbar-brand mb-0 h1">Ebook World</span>
       </a>
-    
-    <ul class="nav justify-content-end">
-      <li class="nav-item">
-        <a class="nav-link active" aria-current="page" href="../html/home.html">Home</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-dark" href="#">Create a Account</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link text-dark" href="login.html">Log In</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link " aria-disabled="true">Disabled</a>
-      </li>
-    </ul>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="../html/home.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="#">Create an Account</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-dark" href="login.html">Log In</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" aria-disabled="true">Disabled</a>
+          </li>
+        </ul>
+      </div>
     </div>
   </nav>
-</div> 
 
-<div class="container-fluid">
-  <div class="row">
-    <div class="col">
-      <marquee class="text-white mt-5" style="font-size:x-large;">Buy 1 Get 1 Books only at ₹999</marquee>
-    </div>
-
-  </div>
-</div>
-
-<div class="container-fluid d-flex ms-5">
-  <div class="row gradient" style="margin-right: 30px;">
-    <div class="col mt-5 ms-5 pics">
-      <a href="https://www.amazon.com/Ends-Us-Starts-Ebook-Collection-ebook/dp/B09T8CTH66">
-      <img style="width:242px; height:265px; margin-left: 20px; margin-top: 60px;" src="../images/buy1.png">
-      </a>
-      <h4 class="mt-3" style="color:rgb(18, 11, 95);">Buy these 2 only at ₹899</h4> 
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col">
+        <marquee class="text-white mt-5" style="font-size:x-large;">Buy 1 Get 1 Books only at ₹999</marquee>
+      </div>
     </div>
   </div>
 
-  <div class="row gradients" style="margin-right: 30px;">
-  <div class="col mt-5 ms-5 pics">
-    <a href="https://www.amazon.in/Thing-Beyond-Forever-Perfect-Ending/dp/B08Y9PDCJ9">
-    <img style="width:242px; height:265px; margin-left: 20px; margin-top: 60px;" src="../images/buy2.jpg">
-    </a>
-    <h4 class="mt-3" style="color:rgb(18, 11, 95);">Buy these 2 only at ₹999</h4> 
-  </div>
-</div>
-
-<div class="row gradientss" style="margin-right: 30px;">
-  <div class="col mt-5 ms-5 pics">
-    <a href="https://www.amazon.in/Silent-Patient-Dark-Places-Books/dp/B08Y9PDJZT">
-    <img style="width:242px; height:265px; margin-left: 20px; margin-top: 60px;" src="../images/buy 3.jpg">
-    </a>
-    <h4 class="mt-3" style="color:rgb(18, 11, 95);">Buy these 2 only at ₹999</h4> 
-  </div>
-</div>
-
-</div>
-
-<div class="container-fluid d-flex ms-5">
-  <div class="row grad" style="margin-right: 30px;">
-    <div class="col mt-5 ms-5 pics">
-      <a href="https://www.amazon.in/Light-Cannot-Then-There-Books/dp/B08KG6CLGM">
-      <img style="width:242px; height:265px; margin-left: 20px; margin-top: 60px;" src="../images/buy4.jpg">
-      </a>
-      <h4 class="mt-3" style="color:rgb(18, 11, 95);">Buy these 2 only at ₹999</h4> 
+  <div class="container mt-5">
+    <div class="row g-4 justify-content-center">
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card gradient">
+          <a href="https://www.amazon.com/Ends-Us-Starts-Ebook-Collection-ebook/dp/B09T8CTH66">
+            <img class="card-img-top w-75 mx-auto mt-5" src="../images/buy1.png" alt="Book Image">
+          </a>
+          <div class="card-body text-center">
+            <h4 class="mt-3" style="color:rgb(18, 11, 95);">Buy these 2 only at ₹899</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card gradients">
+          <a href="https://www.amazon.in/Thing-Beyond-Forever-Perfect-Ending/dp/B08Y9PDCJ9">
+            <img class="card-img-top w-75 mx-auto mt-5" src="../images/buy2.jpg" alt="Book Image">
+          </a>
+          <div class="card-body text-center">
+            <h4 class="mt-3" style="color:rgb(18, 11, 95);">Buy these 2 only at ₹999</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card gradientss">
+          <a href="https://www.amazon.in/Silent-Patient-Dark-Places-Books/dp/B08Y9PDJZT">
+            <img class="card-img-top w-75 mx-auto mt-5" src="../images/buy3.jpg" alt="Book Image">
+          </a>
+          <div class="card-body text-center">
+            <h4 class="mt-3" style="color:rgb(18, 11, 95);">Buy these 2 only at ₹999</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card grad">
+          <a href="https://www.amazon.in/Light-Cannot-Then-There-Books/dp/B08KG6CLGM">
+            <img class="card-img-top w-75 mx-auto mt-5" src="../images/buy4.jpg" alt="Book Image">
+          </a>
+          <div class="card-body text-center">
+            <h4 class="mt-3" style="color:rgb(18, 11, 95);">Buy these 2 only at ₹999</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card grads">
+          <a href="https://www.amazon.in/Time-Machine-Treasure-Island-Books/dp/B08Y9P1XW5">
+            <img class="card-img-top w-75 mx-auto mt-5" src="../images/buy5.jpg" alt="Book Image">
+          </a>
+          <div class="card-body text-center">
+            <h4 class="mt-3" style="color:rgb(18, 11, 95);">Buy these 2 only at ₹899</h4>
+          </div>
+        </div>
+      </div>
+      <div class="col-12 col-sm-6 col-md-4 col-lg-3">
+        <div class="card gradss">
+          <a href="https://www.amazon.in/Monk-Ferrari-Theory-Everything-books/dp/B07YHPKSCT">
+            <img class="card-img-top w-75 mx-auto mt-5" src="../images/buy6.jpg" alt="Book Image">
+          </a>
+          <div class="card-body text-center">
+            <h4 class="mt-3" style="color:rgb(18, 11, 95);">Buy these 2 only at ₹999</h4>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
-
-  <div class="row grads" style="margin-right: 30px;">
-  <div class="col mt-5 ms-5 pics">
-    <a href=https://www.amazon.in/Time-Machine-Treasure-Island-Books/dp/B08Y9P1XW5>
-    <img style="width:242px; height:265px; margin-left: 20px; margin-top: 60px;" src="../images/buy5.jpg">
-    </a>
-    <h4 class="mt-3" style="color:rgb(18, 11, 95);">Buy these 2 only at ₹899</h4> 
-  </div>
+  <footer class="py-3 my-4">
+    <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-danger">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-danger">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-danger">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-danger">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-danger">About</a></li>
+    </ul>
+    <p class="text-center text-danger">© 2024 Company, Inc</p>
+</footer>
+</div>
+</div>
+</div>
 </div>
 
-<div class="row gradss" style="margin-right: 30px;">
-  <div class="col mt-5 ms-5 pics">
-    <a href=https://www.amazon.in/Monk-Ferrari-Theory-Everything-books/dp/B07YHPKSCT>
-    <img style="width:242px; height:265px; margin-left: 20px; margin-top: 60px;" src="../images/buy6.jpg">
-    </a>
-    <h4 class="mt-3" style="color:rgb(18, 11, 95);">Buy these 2 only at ₹999</h4> 
-  </div>
-</div>
-
-</div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12FpuZcJlR2fvcvrJ+P6ygFRTB+H7LkVn4f5vBlt1O4hcVxk" crossorigin="anonymous"></script>
+</body>
+</html>
